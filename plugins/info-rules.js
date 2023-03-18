@@ -18,7 +18,7 @@ contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
-                        title: 'Yaemiko-Multidevice',
+                        title: 'BotWea-Multidevice',
                         body: wm,          previewType: 0,
                         thumbnail: fs.readFileSync("./thumbnail.jpg"),
                         sourceUrl: sig

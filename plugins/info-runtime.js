@@ -32,10 +32,10 @@ let handler = async (m, { conn, args, command }) => {
   let mentionedJid = [m.sender]
     
  conn.sendButtonDoc(m.chat, `Aktif Selama\n` + muptime, '', '\nKakek Gw Suguono', 'huuu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://github.com/Zeltoria',
+    mediaUrl: 'https://github.com/Bambang-G4ns',
     mediaType: 2, 
     description: sgc,
-    title: "Yaemiko-MultiDevice",
+    title: "BotWea-MultiDevice",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: sgc

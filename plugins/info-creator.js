@@ -5,21 +5,21 @@ let handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 	let _type = (args[0] || "").toLowerCase();
 
 	//------- NOMOR
-	let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=6285776353741:+62 857 7635 3741\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
+	let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;${author};;;\nFN:${author}\nORG:${author}\nTITLE:\nitem1.TEL;waid=62895412691100:+62 895 41269 1100\nitem1.X-ABLabel:${author}\nX-WA-BIZ-DESCRIPTION:\nX-WA-BIZ-NAME:${author}\nEND:VCARD`
 
 
 	//------------ BIO
 	let ppown = await conn
 		.profilePictureUrl(nomorown + "@s.whatsapp.net", "image")
 	let teksbio = `${htki} *BIODATA* ${htka}
-• Nama : Muhammad Danil Mnrng
-• Nickname : Zeltoria
-• Gender : Laki
-• Tanggal Lahir : 19 September
+• Nama : Bambang Tri Raharjo 
+• Nickname : Mr.Three4One
+• Gender : Laki 
+• Tanggal Lahir : 12 Juli
 • Umur : Ga Sampe 30
 • Hobby : Nganggur
 • Sifat : Nilai Aja Kalau Udah Kenal
-• Tinggal : Medan, Sumatra Utara
+• Tinggal : Brebes, Jawa Tengah 
 • Waifu : Lebih Suka Loli :v
 `;
 	let teks = "Pilih Di Bawah Kak (〃＾▽＾〃)";

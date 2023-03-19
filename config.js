@@ -185,8 +185,8 @@ global.rpg = {
 // Ga Tau Cara Dapetin Apikey?
 // Lolkey Disini https://api.lolhuman.xyz/pricing
 // Itsrose Disini https://chat.whatsapp.com/CkMy4N6hOVB7nEEGe7sqmV
-global.lolkey = 'apikeylu'
-global.rose = 'apikeylu'
+global.lolkey = '7a42b0bf3636288484cfe9a7'
+global.rose = '4b146102c4d500809da9d1ff'
 global.APIs = {
   lol: 'https://api.lolhuman.xyz',
   violetics : 'https://violetics.pw',
@@ -195,9 +195,9 @@ global.APIs = {
 }
 
 global.APIKeys = { 
-  'https://api.lolhuman.xyz': 'apikeylu',
+  'https://api.lolhuman.xyz': '7a42b0bf3636288484cfe9a7',
   'https://violetics.pw': 'beta',
-  'https://api.itsrose.site': 'apikeylu',
+  'https://api.itsrose.site': '4b146102c4d500809da9d1ff',
 }
 
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'

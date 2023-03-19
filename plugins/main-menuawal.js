@@ -99,7 +99,7 @@ let name = conn.getName(m.sender)
 }
 } })*/
 let nowaa = '0'
-let nogww = '6281387307198'
+let nogww = '62895412691100'
 let nogwww = `@${nomorown1.split`@`[0]}`
 let nowa = `${nowaa.split`@`[0]}@s.whatsapp.net`
 let nogw = `${nogww.split`@`[0]}@s.whatsapp.net`
@@ -112,12 +112,12 @@ let id3 = '.sewa'
 let konten = (`*${ucapan()}, ${tag} 👋*`)
 let knnt = `
 Jangan Pernah Mengeluh Karna Doamu Tidak Terkabulkan, Karna Tuhan Memberi Apa Yang Kamu Butuhkan Bukan Apa Yang Kamu Inginkan!!!`
-let ᴛᴇs = `Powered By Vynaa Chan\nCreator By Zeltoria`
+let ᴛᴇs = `Powered By WhatsApp\nCreator By Bambang Tri Raharjo`
 let wkwk = 'https://telegra.ph/file/1b773671be6d2f21f49d7.jpg'
 
 conn.send2ButtonImg(m.chat, thumb, knnt, ᴛᴇs, but1, id1, but2, id2, m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     description: sgc,
-    title: "Yaemiko-Multidevices",
+    title: "BotWeA-Multidevices",
     body: global.author,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: sgc
